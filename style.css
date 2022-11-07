@@ -7,8 +7,8 @@
     width: calc((100%/12)*4);
     margin: auto;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 30%;
+    top: 30%;
     transform: translateX(-50%), translateY(-50%);
     padding: 0 25px;
     border-radius: 10px;
@@ -74,9 +74,11 @@ button i{
 .logo{
     display: flex;
    justify-content: flex-end;
-   padding-right: 5px;
+   padding-right: 25px;
 }
 .logo i{
     color: #C4C4C4;
-    /* transform: rotate(180deg); */
+}
+.logo.active{
+    transform: rotateX(180deg); 
 }
